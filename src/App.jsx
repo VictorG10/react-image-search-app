@@ -3,7 +3,7 @@ import "./index.css";
 import axios from "axios";
 
 const API_URL = "https://api.unsplash.com/search/photos";
-const IMAGES_PER_PAGE = 24;
+const IMAGES_PER_PAGE = 25;
 
 const App = () => {
   const searchInput = useRef(null);
